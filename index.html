@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skinOra</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <h2>skinOra</h2>
+        <ul id="loginAout">
+            <li><a href="login.html" class="login" >login</a></li>
+            <li><a href="register.html" class="register">register</a></li>
+        </ul>
+
+        <ul id="user_info" style="display: none;">
+                        <div class="icon_badg cardShop1" style="display: none;">
+                            <i class="fa-solid fa-cart-shopping cardShop" ></i> 
+                            <span class="badgeOne"></span>
+                        </div>
+                      <h3 id="user"></h3>
+                      <li><a href="#" id="logout">logout</a></li>
+         </ul>
+    </nav>
+    <section class="conteanir">
+         <div class="searchInput">
+            <select id="searchType">
+                <option value="title">search by product name</option>
+                <option value="category">search by category</option>
+            </select>
+            <div class="div-search">
+                <input type="search" placeholder="search..." id="search">
+            </div>
+            <div class="div-btn">
+                <button class="btn-search">search</button>
+            </div>
+
+          </div> <!--searchInput -->
+
+          <div class="CART-IMG3"></div>
+    </section>
+    <script src="./JS/SCRIPT.JS"></script>
+</body>
+</html>
